@@ -1,0 +1,92 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Roboto+Condensed:ital@1&display=swap');
+
+body{
+    background-color: rgb(155, 190, 219);
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.centro{
+    height: 80%;
+    width: 80%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.perfil{
+    border-radius: 50%;
+    width: 200px;
+    object-fit: cover;
+    height: 200px;
+    background-color: rgb(108, 55, 231);
+}
+
+.nome{
+    color: rgb(27, 24, 24);
+    font-weight:600;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Roboto Slab', serif;    
+    font-size: 37px;
+    box-sizing: border-box;
+   
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+.botoes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 170px;
+    width: 50%;
+    margin-top: 20px;
+}
+.botao{
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    width: 50%;
+    border-radius: 15px;
+    padding: 14px;
+    font-weight: 700;
+    color: black;
+    position: relative;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+   
+}
+.botao1,.botao2{
+    width: 100%;
+    margin-top: 8%;
+    height: 53px;
+    display: flex;
+    align-items: center;
+   
+}
+
+.botao:hover{
+    background-color: rgb(197, 191, 191);
+    box-shadow: 0.5px 0.5px 10px black;
+    padding: 16px;
+    font-size: 17px;
+}
+
+.botao-ctt{
+    position:relative;
+}
+
+.icone{
+    position: absolute ;
+    left: 10px;
+}
